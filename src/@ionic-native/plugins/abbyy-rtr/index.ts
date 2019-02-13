@@ -57,6 +57,10 @@ export interface TextCaptureOptions {
    * the latest recognition result.
    */
   isStopButtonVisible?: boolean;
+  /**
+   * Specify the orientation, possible values 'landscape' or 'portrait'.
+   */
+  orientation?: string;
 }
 
 /**
@@ -175,6 +179,10 @@ export interface DataCaptureOptions {
    * the latest recognition result.
    */
   isStopButtonVisible?: boolean;
+  /**
+   * Specify the orientation, possible values 'landscape' or 'portrait'.
+   */
+  orientation?: string;
 }
 
 /**
